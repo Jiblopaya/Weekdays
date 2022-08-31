@@ -1,0 +1,27 @@
+.rel{
+    position: relative;
+    background-color: blue;
+    height: 250px;
+    width: 200px; 
+    padding-left:120px;
+}
+.any-div{
+      background-color: aqua;
+      height: 30px;
+      position: absolute; 
+      bottom: 240px;
+      right: 702px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.fix{
+    position: fixed;
+    left: 87%;
+    width:5%;
+    top: 80%;
+}
+.ssss{
+    position: sticky;
+    background-color: rgb(175, 241, 208);
+    border: 4px solid rgb(12, 130, 10);
+    bottom: 400%;
+}

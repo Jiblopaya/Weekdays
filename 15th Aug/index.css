@@ -1,0 +1,122 @@
+
+        
+            h1{
+                background-color: rgb(17, 6, 71);
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: white;
+                border: 2px dashed cyan;
+                
+            }
+ 
+            .firstheader{
+                margin-left:100px ; 
+                color: orangered;
+            }
+            
+            .paragraph{
+                color: blue;
+            }
+            
+            #thanks {
+                
+                 color: rgb(69, 21, 225);
+
+            }
+                
+            .premierleague{
+                color: rgb(28, 144, 198);
+            }          
+            table{
+                border: 2px solid white;
+                display: inline;
+                
+            }
+            .anothertable{
+                background-color: red;
+                border-radius: 5px; color: white;
+                
+            }
+            .anothertableA{
+                background-color: rgb(213, 194, 194);
+                border-radius: 5px;
+            }
+            .anothertableB{
+                background-color: orange;
+                border-radius: 5px;
+             }
+             
+             .mother{
+                background-color: tomato
+                width:50%; 
+                display flex; 
+                justify-content space-evenly         
+             }
+             .child1{
+                background-color: green
+                width:40%
+             }
+             .child2{
+                background-color:green
+                width:40% }
+
+            .newdiv{
+                background-color: blueviolet; width: 50%;
+                display: grid; 
+                /* grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr ; */
+                grid-template-columns: repeat(7, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+            }
+            .div1{
+                width: 20%; background-color: brown;
+            }
+            .div2{
+                width: 20%; background-color: aquamarine;
+            }
+            .div2{
+                width: 20%; background-color: darkolivegreen;
+            }
+            .div3{
+                width: 20%; background-color: coral;
+            }
+            .div4{
+                width: 20%; background-color: gold;
+            }
+            .div5{
+                width: 20%; background-color: red;
+            }
+            .div6{
+                width: 20%; background-color: hotpink;
+            }
+            .div7{
+                width: 20%; background-color: bisque;
+            }
+            .div8{
+                width: 20%; background-color: green;
+            }
+            .div9{
+                width: 20%; background-color: darkblue;
+            }
+            .div10{
+                width: 20%; background-color: dimgrey;
+            }
+
+            .first{
+                border: 3px solid;
+                padding: 4px; 
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 1fr);                
+            }
+            .pos-div{
+                background-color: tomato;
+                font-size: 30px;
+                width: 200px;
+                position: relative;
+                bottom: 1500px;
+                left: 80%;
+            }
+            .child{
+                background-color: cyan;
+                border: 2px dashed;
+            }

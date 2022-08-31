@@ -1,0 +1,52 @@
+/* Mobile first approch */
+
+@media (min-width:320px)  {
+    body{
+        /* background-color: #4949; */
+    }
+    .img1{
+        width: 70%; text-align: center;
+    }
+    .img2{
+        width: 70%; text-align: center;
+    }
+    .img3{
+        width: 70%; text-align: center;
+    }
+    .div2{
+        text-align: center;
+        display: block;
+        display: ;
+    }
+}
+@media (min-width:480px)  {
+    body{
+        /* background-color: cornflowerblue; */
+        /* display: flex; */
+    }
+}
+@media (min-width:600px)  { 
+    body{
+        /* background-color: darkmagenta; */
+    }
+}
+@media (min-width:801px)  {
+    body{
+        background-color: rgb(255, 30, 30);
+    } 
+}
+@media (min-width:1025px) {
+    body{
+        /* background-color: lightcyan; */
+       
+    }
+}
+@media (min-width:1281px) {
+    body{
+        /* background-color: darkorange; */
+    }
+}
+.div{
+    font-size: 280%;;
+    text-align: center; color: white;
+}

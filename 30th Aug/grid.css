@@ -1,0 +1,15 @@
+.div1{
+    display: grid;
+    background-color: skyblue;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    }
+
+.backdiv{
+    background-color: navy;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}

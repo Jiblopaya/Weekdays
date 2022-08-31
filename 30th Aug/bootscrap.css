@@ -1,0 +1,38 @@
+.firstdiv{
+    background-image:url(/30th\ Aug/mobile/image-header.jpg);
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    top: 40%;
+    width: 30%;
+}
+.secondiv{
+    /* background-image: url(/30th\ Aug/mobile/image-gallery-cone.jpg); */
+    height:70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+    left: 23%;
+    position: relative;
+    bottom:50%;
+    text-align: center;  
+}
+
+.container-fluid{
+    /* background-color: lightskyblue  */
+    
+}
+.Navbar-brand{
+    color: black;
+}
+.example1{
+    /* background-color: skyblue;  */
+}
+.example2{
+    /* background-color: lightcyan; */
+}
+
+.navbar-toggler-icon{
+    color: red;
+}

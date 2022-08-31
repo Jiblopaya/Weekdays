@@ -1,0 +1,38 @@
+body{
+     background-color: rgb(163,185,194);
+     margin-top: 10%; margin-bottom: 10%;}
+
+.Element1{
+        font-family: Calibri; font-size: 200%;}
+
+.Element2{
+    font-family: Calibri; font-size: 200%; color: chartreuse;}
+
+.Element3{
+    font-family: Calibri; font-size: 130%; color: grey;}
+
+.Element4{
+    font-family: Calibri;  font-size: 130%; color: grey;}
+
+.Element5{
+    font-family: Calibri; font-size: 150%; color: white}
+
+.mother{
+        background-color: white; padding: 5%; 
+        width: 40%;
+        margin-left: 25%; color: darkcyan;}
+
+.father{
+    display:flex; width:100%;}
+
+
+.FirstBorn{
+        background-color: seagreen; 
+        padding: 5%; width: 15%; margin-left:25%;}
+
+.SecondBorn{
+    background-color: rgb(8, 127, 113); padding: 5%; width: 15%;}
+
+.bracket{
+    background-color: chartreuse; width: 90% ; padding: 4%; font-size: 100%;
+    border-radius: 10px ; text-align: center;}

@@ -1,0 +1,122 @@
+/* Destop first approach start here */
+
+@media screen and (min-width: 1200px){
+    body{
+        background-color: aliceblue;
+    }
+} /* Desktop */
+@media screen and (min-width: 1025px) and (max-width: 1199px){
+    body{
+        background-color: blue;
+    }
+} /* small laptop */
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    body{
+        background-color: chartreuse;
+    }
+} /* tablet */
+@media screen and (min-width: 575px) and (max-width: 767.98px){
+    body{
+        background-color: brown;
+    }
+} /* tablet and large mobiles */
+@media screen and (min-width: 320px) and (max-width: 480px){
+    body{
+        background-color: yellow;
+    }
+} /* Mobile*/
+
+Body{
+    background-color: #221e1e; 
+    background-image: url(./images/25188.jpg);
+        
+}
+.Gmail{
+    width: 10%;
+
+}
+
+.Heading{ 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+img{
+    width: 15%;
+    border-radius: 70px;
+    text-align: center;
+    font-size: 220%;
+}
+.hd1{
+    text-align: center;
+    color: white;
+    font-family:  Calibri;
+    font-size: 50%;
+
+}
+.hd2{
+    text-align: center;  font-family:  Calibri; color: white;     font-size: 50%;
+
+}
+.hd3{
+    font-size: 50%;
+    text-align: center; font-family:  Calibri;color: white; 
+}
+.hd4{
+    font-size: 50%;
+    text-align: center; font-family:  Calibri;color: white; 
+}
+.hd5{
+    font-size: 50%;
+    text-align: center; font-family:  Calibri;color: white;
+}
+.hd6{
+    font-size: 50%;
+    text-align: center; font-family:  Calibri;color: white;
+}
+.hd7{
+    font-size: 50%;
+    text-align: center; font-family:  Calibri;color: white;
+}
+.hd8{
+    font-size: 50%;
+    text-align: center; font-family:  Calibri;color: white; 
+}
+.Frame{
+    font-size:350%;
+    text-align: center;
+        
+}
+
+input{
+    position: relative;
+    width:50%; 
+    text-align: center;
+    left: 25%;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    padding: 8px;
+    display: flex;
+
+}
+.g1{
+    margin-top: 10%;
+    margin-bottom: 1%;
+    width: 30%;
+}
+.mic{
+    position: absolute;
+    width: 20px;
+    left: 73%;
+    top: 48%;
+    /* display: block; */
+}
+.search{
+        position: absolute;
+        width: 2%;
+        top: 48%;
+        right: 70%;
+        /* display: block; */
+}
